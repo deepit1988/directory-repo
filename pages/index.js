@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="p-4">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

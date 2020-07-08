@@ -88,14 +88,16 @@ module.exports = {
             // Handles processing external CSS with PostCSS.
             // Ignores files named "variables.css" since those
             // are only imported for use in <style jsx>.
-            {
+
+            // ToDo - Removed to make it work here
+            /*{
                 test: /\.css$/,
                 use: [
                     'raw-loader',
                     'postcss-loader',
                 ],
                 exclude: /variables\.css$/,
-            },
+            },*/
 
             // Handles transforming the css variables into
             // an object for use in <style jsx>
@@ -257,9 +259,7 @@ module.exports = {
                 openAnalyzer: true,
             } ) );
 
-        }
-
-        
+        }        
 
         
         if ( !isServer && !extractCssInitialized ) {
