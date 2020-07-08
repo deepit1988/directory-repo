@@ -1,0 +1,7 @@
+.gitignore
+.next/*
+bin/*
+node_modules/*
+**/node_modules/*
+storybook-static/*
+library/packages/*
