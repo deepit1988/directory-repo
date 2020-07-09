@@ -19,7 +19,9 @@
     "raw-loader": "^4.0.1",
     "postcss-loader": "^3.0.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "agentkeepalive": "^4.1.0",
+    "axios": "^0.18.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
