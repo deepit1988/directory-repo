@@ -1,5 +1,6 @@
 //import '../../styles.css';
-import Link from 'next/link'
+import Link from 'next/link';
+import Layout from '../templates/Layout';
 
 
 export function Home() {
@@ -9,7 +10,7 @@ export function Home() {
     }   
 
     return (
-        <div>
+        <Layout>
             <h1 className= "px-6">Welcome to Home page</h1>
             Know <Link href="/about"><a> About us!</a></Link>
             <br />
@@ -18,7 +19,7 @@ export function Home() {
             <button className= "px-6 py-4" onClick={ handleBackButton }>
                 <span className="px-6" > &lt; BACK </span>
             </button>
-        </div>
+        </Layout>
     )
   }
 

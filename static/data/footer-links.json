@@ -1,0 +1,114 @@
+{
+    "company": [
+      {
+        "text": "About Us",
+        "link": "http://www.ftdcompanies.com/about"
+      },
+      {
+        "text": "International Delivery",
+        "link": "https://www.ftd.com/international-delivery-ctg/international-alt4?islegacy=1"
+      },
+      {
+        "text": "Service/Shipping Fees",
+        "link": "https://www.ftd.com/delivery-charges/"
+      },
+      {
+        "text": "Partners",
+        "link": "https://www.ftd.com/custserv/partners.epl"
+      },
+      {
+        "text": "Corporate Services",
+        "link": "https://www.ftd.com/corporate-services/"
+      },
+      {
+        "text": "Become an Affiliate",
+        "link": "https://www.ftd.com/affiliate-program-ctg/corporate-affiliate-programs/"
+      },
+      {
+        "text": "FTD Corporate",
+        "link": "http://www.ftdcompanies.com/"
+      },
+      {
+        "text": "Blog",
+        "link": "https://www.ftd.com/blog/?markcode="
+      }
+    ],
+    "account": [
+      {
+        "text": "Manage Account",
+        "link": "https://ordering.ftd.com/signin/"
+      },
+      {
+        "text": "Track Your Order",
+        "link": "https://www.ftd.com/order-status/"
+      }
+    ],
+    "help": [
+      {
+        "text": "Customer Service",
+        "link": "https://www.ftd.com/custserv/"
+      },
+      {
+        "text": "Flower Guides",
+        "link": "https://www.ftd.com/general-flower-care-ctg/product-flowers-flowerguide-generalflowers/"
+      },
+      {
+        "text": "Plant Guides",
+        "link": "https://www.ftd.com/general-plant-care-ctg/product-flowers-flowerguide-generalplants/"
+      },
+      {
+        "text": "Sitemap",
+        "link": "https://www.ftd.com/browse-our-store/"
+      }
+    ],
+    "contact": [
+      {
+        "text": "1.800.SEND.FTD (1.800.736.3383)",
+        "link": "tel:18007363383",
+        "icon": "PhoneSvg"
+      },
+      {
+        "text": "Email Us",
+        "link": "mailto:custserv@ftd.com",
+        "icon": "EmailSvg"
+      },
+      {
+        "text": "",
+        "link": "",
+        "icon": "",
+        "className": "chat-liveagent-link"
+      }
+    ],
+    "social": [
+      {
+        "ariaLabel": "Visit FTD on Facebook",
+        "link": "https://www.facebook.com/FTDflowers/",
+        "icon": "FacebookSvg",
+        "newWindow": true
+      },
+      {
+        "ariaLabel": "Visit FTD on Twitter",
+        "link": "https://twitter.com/FTDFlowers",
+        "icon": "TwitterSvg",
+        "newWindow": true
+      },
+      {
+        "ariaLabel": "Visit FTD on Pinterest",
+        "link": "https://www.pinterest.com/FTDFlowers/",
+        "icon": "PinterestSvg",
+        "newWindow": true
+      },
+      {
+        "ariaLabel": "Visit FTD on Youtube",
+        "link": "https://www.youtube.com/FTDFlowers",
+        "icon": "YoutubeSvg",
+        "newWindow": true
+      },
+      {
+        "ariaLabel": "Visit FTD on Instagram",
+        "link": "https://www.instagram.com/FTDFlowers/",
+        "icon": "InstagramSvg",
+        "newWindow": true
+      }
+    ]
+  }

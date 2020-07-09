@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import request from '../../library/js/modules/request';
+import Layout from '../templates/Layout';
 
 export function About() {
 
@@ -27,10 +28,11 @@ export function About() {
     }, [] );
 
     return ( 
-        <div>
+        
+        <Layout>
             <h1>This is About page</h1>
             Go to <Link href="/home"><a> Home!</a></Link>
-        </div>
+        </Layout>
     )
 }
 
