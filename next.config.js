@@ -98,6 +98,14 @@ module.exports = {
                 ],
                 exclude: /variables\.css$/,
             },*/
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
+            },
 
             // Handles transforming the css variables into
             // an object for use in <style jsx>

@@ -26,27 +26,7 @@ const Button = ( props ) => {
                         <p className={ classNames( styles.dot, styles.three ) }>.</p>
                     </div>
                 </div>
-            }
-            <style jsx>{
-                `.loadingSvg p {
-                    animation: loadingAnimation 1.2s ease-in-out infinite;
-                }
-                @keyframes loadingAnimation {
-                    0% {
-                        opacity: 0;
-                    }
-                    50% {
-                        opacity: 1;
-                    }
-                    60% {
-                        opacity: 0.5;
-                    }
-                    to {
-                        opacity: 0;
-                    }
-                }
-                `
-            }</style>
+            }            
         </button>
     );
 

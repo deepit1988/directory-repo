@@ -11,11 +11,11 @@ const list = [
 export function Header() {   
 
     return (
-        <div class = 'h-30 flex px-10 py-4'>
+        <header class = 'h-30 flex px-10 py-4'>
             <Logo className={ 'site-logo' } />
             <p className = {'px-10 justify-center'}> Wedding Florist Directory </p>
             <div className ='flex'><Links list = { list }/></div>
-        </div>
+        </header>
     )
   }
 

@@ -1,11 +1,5 @@
-//import '../../styles.css';
+
 import Link from 'next/link';
-//import Layout from 'templates/Default';
-//import Logo from '';
-
-//import RoutedLink from 'components/atoms/routed-link';
-//import Link from 'next/link';
-
 import SvgFtd from './logo-ftd';
 
 const WrappedLogo = ( { className, defaultStyles, label, url } ) => {

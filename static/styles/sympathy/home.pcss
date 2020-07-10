@@ -1,0 +1,152 @@
+/* TODO: if there are any unnecessary CSS, please clean up */
+@import './common.css';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1800px;
+    font-family: Montserrat;
+    font-size: 125%;
+    /* padding: 50px; */
+    float: left;
+    line-height: 22px;
+}
+
+.footer {
+    background-color: #ffd5d4;
+}
+
+.topBanner {
+    background: url("./assets/Mask_Group_1.png") no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+
+.searchText {
+    height: 35px;
+    color: #666;
+	width: 320px;
+}
+
+.searchBtn {
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 3px;
+    height: 35px;
+    width: 110px;
+    background: #f88e89;
+    margin-left: 5px;
+    color: white;
+}
+
+.thirdBanner {
+    background: url("./assets/Mask_Group_3_bq.png") #ffd5d4 no-repeat;
+    background-size: 100%;
+}
+
+.mobileBanner {
+    width: 100%;
+    background: url("./assets/Mask_Group_2.png") no-repeat;
+    height: 380px;
+    background-position: right;
+    margin-top: 10px;
+}
+
+.footerLinks>div:not(:last-child) {
+    padding-bottom: 45px;
+}
+
+.footer>div {
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:992px) {
+    .xs-alignCenter {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        /* padding: 20px; */
+    }
+
+    .mobileNav > ul li {
+        width: 35px;
+        height: 5px;
+        background-color: #000;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+    .logoImg {
+        width: 45px;
+        height: 40px;
+    }
+
+    .topBanner {
+        background-size: 100%;
+        padding: 55px;
+    }
+
+    
+    .desktopNav span.active {
+        color: red;
+        border-bottom: 1px solid red;
+        padding-bottom: 2px;
+    }
+
+    .searchText {
+        width: 340px;
+    }
+
+    .secondBanner {
+        background: url("./assets/Mask_Group_2.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .thirdBanner {
+        text-align: center;
+        height: 150px;
+        padding: 10px 50px;
+    }
+
+    .mobileBanner {
+        display: none;
+    }
+
+    .productTile {
+        width: 20%;
+    }
+
+    .productImg,
+    .prod {
+        width: 170px;
+    }
+
+    .products {
+        padding: 50px 80px;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footerContent span::after {
+        content: "|";
+        padding: 0 10px;
+    }
+
+    .footerContent span:last-child::after {
+        content: none;
+    }
+
+    .footerLinks>div:not(:last-child),
+    .footer>div {
+        padding-bottom: 0;
+    }    
+
+}

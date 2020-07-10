@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../../../static/images/logo-ftd.png';
 
 const SvgFtd = () => {
 
@@ -27,5 +28,14 @@ const SvgFtd = () => {
     );
 
 };
+
+/*export function SvgFtd() {   
+
+    return (
+        <picture class = 'h-30 flex px-10 py-4'>
+            <img src={ logoImg } alt="logo-ftd" class="logoImg" />           
+        </picture>
+    )
+}*/
 
 export default SvgFtd;
