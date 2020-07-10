@@ -21,6 +21,7 @@ const Search = (props) => {
     return (
         <div className="flex items-center justify-center h-40" style={styles}>
             <div className="w-full text-center" >
+            
                 <div className="font-bold text-xl mb-2"><h3>{heading}</h3></div>
             </div>
         </div>
