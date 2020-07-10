@@ -26,8 +26,8 @@ export function Footer() {
     return (
         <footer className = 'flex py-4 bg-pink-200'>            
             { footerLinksByCat.map( catLinks => 
-                <div className='flex flex-col mx-10'>
-                    <b className='uppercase'>{ catLinks.heading }</b>
+                <div className='flex flex-col ml-12'>
+                    <b className='uppercase ml-8'>{ catLinks.heading }</b>
                     <Links list = { catLinks.links }/>
                 </div> 
             ) }

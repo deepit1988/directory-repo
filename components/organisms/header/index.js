@@ -12,8 +12,8 @@ export function Header() {
     return (
         <header class = 'h-30 flex px-10 py-4'>
             <Logo className={ 'site-logo' } />
-            <p className = {'px-10 justify-center italic'}> Wedding Florist Directory </p>
-            <div className ='flex'><Links list = { list }/></div>
+            <div className = {'px-10 text-2xl justify-center italic font-medium'}> Wedding Florist Directory </div>
+            <div className ='flex ml-auto'><Links list = { list }/></div>
         </header>
     )
   }

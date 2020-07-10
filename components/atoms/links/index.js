@@ -1,7 +1,7 @@
-import Link from 'next/link';
+
 
 export const Links = ( { list = [] } ) => {
-    return list.map( linkObj => <Link href={ linkObj.link } ><a className=''>{ linkObj.text }</a></Link>)
+    return list.map( linkObj => <a href={ linkObj.link } className='no-underline hover:underline ml-8'>{ linkObj.text }</a>)
 }
 
 export default Links;
