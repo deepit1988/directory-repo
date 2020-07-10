@@ -19,6 +19,7 @@ const Button = ( props ) => {
             { !showLoaderIcon && label }
             { props.children }
             { showLoaderIcon &&
+            
                 <div className={ styles.ctaLoader }>
                     <div className={ classNames( styles.loadingSvg, 'loadingSvg' ) }>
                         <p className={ classNames( styles.dot, styles.one ) }>.</p>
