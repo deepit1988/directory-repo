@@ -21,7 +21,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "agentkeepalive": "^4.1.0",
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
